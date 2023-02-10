@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai02-Lab01</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #wrapper{
+            display: grid;
+            width: 900px;
+            height: 500px;
+            margin: 30px;
+            padding: 20px;
+            background-color: rgb(205, 230, 221);
+            grid-template-columns: 290px 290px 290px ;
+            grid-template-rows: 140px 140px 140px ;
+            gap: 10px;
+        }
+        .grid1 {
+            background-color: brown;
+            border: 2px solid black;
+            padding: 20px;
+            grid-area:1/1/4/3;
+        }
+        .grid2{
+            background-color: blueviolet;
+            border: 2px solid black;
+            padding: 20px;
+            grid-area:1/3/3/4 ;
+        }
+        .grid3{
+            background-color: blue;
+            border: 2px solid black;
+            padding: 20px;
+            grid-area:3/3/4/4 ;
+        }
+        img{
+            margin: 0;
+            padding: 0;
+            top: -10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="grid1 -item">
+            <p>Typography
+
+                Let’s face it: the core purpose of all web design is communication. Whether we’re talking about an online retail store, a web presence for a Fortune 500 company, or a profile for a social networking site, typography is a vital component. For most people, typography is simply about arranging a fa-miliar set of shapes to make words, sentences, and paragraphs. Having the ability to set type with only a few strokes on a keyboard has allowed us to forget about the creative and artistic possibilities of this medium.
+                
+                There are numerous obstacles to the effective customization of typography for the Web—and I’ll address these in the coming pages—but the power of type should be motivation enough to push the proverbial envelope. Unconvinced? Pick up a magazine, turn on a television, or take a walk through a grocery store. You will undoubtedly see hundreds of creative and effective uses of type. It is the substance of branding, the key to unspoken communication, and an essential piece of the web design pie.
+                </p>
+        </div>
+        <div class="grid2 -item">
+            <p>Taking Type to the Web
+
+                When it comes to theWeb and choosing fonts for text that will be displayed in a browser, it doesn’t matter if you have five, or 5,000, fonts installed; you have to think in terms of the lowest common denominator.</p>
+        </div>
+        <div class="grid3 -item">
+            <img src="../Lab01_PD06987_Web2022/adv.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
