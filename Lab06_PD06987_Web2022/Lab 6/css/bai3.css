@@ -1,0 +1,63 @@
+@font-face {
+    font-family: kanit;
+    src: url(../fonts/Kanit/Kanit-Bold.ttf);
+}
+@font-face {
+    font-family: Noto;
+    src: url(../fonts/NotoSans/NotoSans-Regular.ttf);
+}
+nav{
+    background-color: #328DC5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+}
+nav a img{width: 120px;}
+#banner{
+    background-image: url(../images/header-big.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 -8px;
+    margin-top: -6px;
+}
+#banner h2{
+    color: #3073B9;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: kanit;
+    line-height: 250px;
+}
+section{
+    width: 80%;
+    margin: auto;
+}
+section h2{
+    font-family: kanit;
+    color: #87C3DC;
+    text-align: center;
+}
+p{text-indent: 50px;font-family: Noto; text-align: justify;}
+section .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1,.box2,.box3,.box4{width: calc(50% - 30px);padding-right: 30px;}
+.box1 h3{color: red; text-transform: uppercase;}
+.box2 h3{color: green;text-transform: uppercase}
+.box3 h3{color: #1399B8;text-transform: uppercase}
+.box4 h3{color: greenyellow;text-transform: uppercase}
+.award{width: 33.3%; line-height: 30px;}
+footer{display: flex; background-color: #0F2B44; padding: 20px; color: #fff;}
+.footer{width: 25%;}
+.footer-bottom{background-color: #0f1c28;color: #fff; text-align: center;padding: 8px;}

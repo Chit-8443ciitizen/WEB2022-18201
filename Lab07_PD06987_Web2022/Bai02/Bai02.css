@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    margin: 20px 0 0 100px;
+    width: 1000px;
+    height: 1100px;
+    background-color: rgb(250, 250, 249);
+}
+    .wr-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+        .wr-tp-right{
+            width: 45%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+        }
+        .search{
+            border: 1px solid grey;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: space-between;
+            margin: 15px;
+            padding: 0px 0px 0 15px;
+            width: 100%;
+            height: 20px;
+        }
+            .search p{
+                color: gray;
+                line-height: 10px;
+            }
+            .search button{
+                background-color: rgb(172, 170, 170);
+                /* margin: 1px; */
+                border: none;
+                border-radius: 20px;
+                width: 120px;
+                height: px;
+                color: red;
+                font-weight: 600;
+            }
+        .menu{
+            width: 100%; 
+            padding: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+            .menu a{
+                text-decoration: none;
+                font-size: 10px;
+                color: grey;
+            }
+    .wr-nav{
+        color: grey;
+        margin-bottom: 30px;
+    }
+        .wr-nav h1{
+            margin-bottom: 5px;
+        }
+        .wr-nav h2{
+            margin-bottom: 30px;
+        }
+        .wr-nav p{
+            display: flex;
+            flex-direction: row;
+            width: 90%;
+            text-align: justify;
+        }
+    .wrapper img{
+        margin-bottom: 10px;
+    }
+    .wrapper p{
+        text-align: center;
+        padding: 5px;
+        color: grey;
+    }
+    .search p, .menu a, .wr-nav, .wrapper p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
